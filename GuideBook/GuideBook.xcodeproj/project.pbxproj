@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		C069C7E62A429B3D002C1450 /* GuideBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7E52A429B3D002C1450 /* GuideBookApp.swift */; };
-		C069C7E82A429B3D002C1450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7E72A429B3D002C1450 /* ContentView.swift */; };
+		C069C7E82A429B3D002C1450 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7E72A429B3D002C1450 /* CityView.swift */; };
 		C069C7EA2A429B3E002C1450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C069C7E92A429B3E002C1450 /* Assets.xcassets */; };
 		C069C7ED2A429B3E002C1450 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C069C7EC2A429B3E002C1450 /* Preview Assets.xcassets */; };
+		C069C7F42A429BFA002C1450 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7F32A429BFA002C1450 /* DataService.swift */; };
+		C069C7F62A429C61002C1450 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7F52A429C61002C1450 /* City.swift */; };
+		C069C7F82A429E39002C1450 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7F72A429E39002C1450 /* Attraction.swift */; };
+		C069C7FA2A42A004002C1450 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7F92A42A004002C1450 /* CityCard.swift */; };
+		C069C7FC2A42A528002C1450 /* AttractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7FB2A42A527002C1450 /* AttractionView.swift */; };
+		C069C7FE2A42A6E2002C1450 /* AttractionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7FD2A42A6E2002C1450 /* AttractionDetail.swift */; };
+		C069C8002A42AA80002C1450 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069C7FF2A42AA80002C1450 /* DetailView.swift */; };
+		C069C8022A42AED8002C1450 /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = C069C8012A42AED8002C1450 /* DemoData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C069C7E22A429B3D002C1450 /* GuideBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C069C7E52A429B3D002C1450 /* GuideBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideBookApp.swift; sourceTree = "<group>"; };
-		C069C7E72A429B3D002C1450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C069C7E72A429B3D002C1450 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		C069C7E92A429B3E002C1450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C069C7EC2A429B3E002C1450 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C069C7F32A429BFA002C1450 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C069C7F52A429C61002C1450 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		C069C7F72A429E39002C1450 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		C069C7F92A42A004002C1450 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		C069C7FB2A42A527002C1450 /* AttractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionView.swift; sourceTree = "<group>"; };
+		C069C7FD2A42A6E2002C1450 /* AttractionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetail.swift; sourceTree = "<group>"; };
+		C069C7FF2A42AA80002C1450 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C069C8012A42AED8002C1450 /* DemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,16 @@
 			isa = PBXGroup;
 			children = (
 				C069C7E52A429B3D002C1450 /* GuideBookApp.swift */,
-				C069C7E72A429B3D002C1450 /* ContentView.swift */,
+				C069C7F32A429BFA002C1450 /* DataService.swift */,
+				C069C7F52A429C61002C1450 /* City.swift */,
+				C069C7F72A429E39002C1450 /* Attraction.swift */,
+				C069C7E72A429B3D002C1450 /* CityView.swift */,
+				C069C7F92A42A004002C1450 /* CityCard.swift */,
+				C069C7FB2A42A527002C1450 /* AttractionView.swift */,
+				C069C7FD2A42A6E2002C1450 /* AttractionDetail.swift */,
+				C069C7FF2A42AA80002C1450 /* DetailView.swift */,
 				C069C7E92A429B3E002C1450 /* Assets.xcassets */,
+				C069C8012A42AED8002C1450 /* DemoData.json */,
 				C069C7EB2A429B3E002C1450 /* Preview Content */,
 			);
 			path = GuideBook;
@@ -126,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C069C7ED2A429B3E002C1450 /* Preview Assets.xcassets in Resources */,
+				C069C8022A42AED8002C1450 /* DemoData.json in Resources */,
 				C069C7EA2A429B3E002C1450 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C069C7E82A429B3D002C1450 /* ContentView.swift in Sources */,
+				C069C7F42A429BFA002C1450 /* DataService.swift in Sources */,
+				C069C8002A42AA80002C1450 /* DetailView.swift in Sources */,
+				C069C7E82A429B3D002C1450 /* CityView.swift in Sources */,
+				C069C7F82A429E39002C1450 /* Attraction.swift in Sources */,
+				C069C7F62A429C61002C1450 /* City.swift in Sources */,
+				C069C7FA2A42A004002C1450 /* CityCard.swift in Sources */,
+				C069C7FE2A42A6E2002C1450 /* AttractionDetail.swift in Sources */,
+				C069C7FC2A42A528002C1450 /* AttractionView.swift in Sources */,
 				C069C7E62A429B3D002C1450 /* GuideBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
